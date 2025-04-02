@@ -12,7 +12,7 @@ npm install react-native-multi
 
 
 ```jsx
-import { multiply } from 'react-native-multi';
+import { MultiCaptureComponent } from 'react-native-multi';
 
 // ...
 <MultiCaptureComponent
