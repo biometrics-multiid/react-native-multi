@@ -1,6 +1,6 @@
 {
   "name": "react-native-multi",
-  "version": "0.2.0",
+  "version": "0.1.1",
   "description": "Package for integration with the Multi ID SDK, providing easy access to authentication and identity management features. Ideal for developers looking to implement digital identity solutions in their projects.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -38,7 +38,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-multi-sdk-example",
+    "example": "yarn workspace react-native-multi-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -70,7 +70,7 @@
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "^9.0.2",
     "@types/jest": "^29.5.5",
-    "@types/react": "^18.2.6",
+    "@types/react": "^19.0.12",
     "commitlint": "^19.6.1",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
@@ -88,9 +88,6 @@
     "react": "*",
     "react-native": "*"
   },
-  "workspaces": [
-    "example"
-  ],
   "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",
