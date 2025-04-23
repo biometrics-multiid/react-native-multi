@@ -7,6 +7,8 @@ type MultiProps = {
   getImage: (data: any) => void;
   onClose: () => void;
   onTimeout: () => void;
+  onLoadStart: () => void;
+  onLoadEnd: () => void;
 };
 
 const MultiCaptureComponent: FC<MultiProps> = ({
@@ -14,12 +16,14 @@ const MultiCaptureComponent: FC<MultiProps> = ({
   onClose,
   onTimeout,
   getImage,
+  onLoadEnd,
+  onLoadStart,
 }) => {
   return (
     <View style={{ flex: 1, zIndex: 20, margin: 18 }}>
       <WebView
-        onLoadStart={() => {}}
-        onLoadEnd={() => {}}
+        onLoadStart={onLoadStart}
+        onLoadEnd={onLoadEnd}
         style={{ flex: 1 }}
         source={{
           uri: 'https://multiid-sdk-web-437894375097.southamerica-east1.run.app/capture',
