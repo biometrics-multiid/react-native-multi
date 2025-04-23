@@ -30,7 +30,7 @@ export default function App() {
           <MultiCaptureComponent
             onLoadStart={() => setIsLoading(true)}
             onLoadEnd={() => setIsLoading(false)}
-            secret=""
+            secret="67E9730E54154A079DA26C999D3880AA"
             getImage={(data) => {
               setImage(data.base64);
             }}
