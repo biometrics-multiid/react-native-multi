@@ -9950,7 +9950,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-multi@^0.1.2, react-native-multi@workspace:.":
+"react-native-multi@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-native-multi@workspace:."
   dependencies:
@@ -9970,7 +9970,6 @@ __metadata:
     react: 18.3.1
     react-native: 0.76.7
     react-native-builder-bob: ^0.38.4
-    react-native-multi: ^0.1.2
     react-native-webview: ^13.13.5
     release-it: ^17.10.0
     typescript: ^5.2.2
