@@ -1,6 +1,6 @@
 {
   "name": "react-native-multi",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Package for integration with the Multi ID SDK, providing easy access to authentication and identity management features. Ideal for developers looking to implement digital identity solutions in their projects.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -84,14 +84,14 @@
     "react": "18.3.1",
     "react-native": "0.76.7",
     "react-native-builder-bob": "^0.38.4",
-    "react-native-webview": "^13.13.5",
+       "react-native-webview": "13.6.4",
     "release-it": "^17.10.0",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-webview": "^13.13.5"
+    "react-native-webview": "13.6.4"
   },
   "packageManager": "yarn@3.6.1",
   "jest": {
